@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Instagram</title>
     <!-- FAVIVON -->
-    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/png" />
+    <link rel="shortcut icon" href="images/favicon.png" type="image/png" />
     <!-- GOOGLE FONT -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
@@ -380,21 +380,21 @@ button:disabled {
         <div class="main-container">
             <div class="main-content">
                 <!-- Slider -->
-                <div class="slide-container" style="background-image: url(assets/images/phone-frame.png)">
+                <div class="slide-container" style="background-image: url(images/phone-frame.png)">
                     <div class="slide-content" id="slide-content">
-                        <img src="assets/images/slide (1).jpg" alt="slide image" class="active" />
-                        <img src="assets/images/slide (2).jpg" alt="slide image" />
-                        <img src="assets/images/slide (3).jpg" alt="slide image" />
-                        <img src="assets/images/slide (4).jpg" alt="slide image" />
-                        <img src="assets/images/slide (5).jpg" alt="slide image" />
+                        <img src="images/slide (1).jpg" alt="slide image" class="active" />
+                        <img src="images/slide (2).jpg" alt="slide image" />
+                        <img src="images/slide (3).jpg" alt="slide image" />
+                        <img src="images/slide (4).jpg" alt="slide image" />
+                        <img src="images/slide (5).jpg" alt="slide image" />
                     </div>
                 </div>
                 <!-- Start form  -->
                 <div class="form-container">
                     <div class="form-content box">
                         <div class="logo">
-                            <img src="assets/images/logo-light.png" alt="Instagram logo" class="logo-light" />
-                            <img src="assets/images/logo-dark.png" alt="Instagram logo" class="logo-dark" />
+                            <img src="images/logo-light.png" alt="Instagram logo" class="logo-light" />
+                            <img src="images/logo-dark.png" alt="Instagram logo" class="logo-dark" />
                         </div>
                         <div class="signin-form" id="signin-form">
                             <div class="form-group">
@@ -422,7 +422,7 @@ button:disabled {
                             </div>
                             <div class="btn-group">
                                 <button class="btn-fb">
-                                    <img src="assets/images/facebook-icon.png" alt="facebook" />
+                                    <img src="images/facebook-icon.png" alt="facebook" />
                                     <span>Log in with Facebook</span>
                                 </button>
                             </div>
@@ -440,10 +440,10 @@ button:disabled {
                         <p>Get the app.</p>
                         <div class="store-link">
                             <a href="#">
-                                <img src="assets/images/app-store.png" alt="app store" />
+                                <img src="images/app-store.png" alt="app store" />
                             </a>
                             <a href="#">
-                                <img src="assets/images/gg-play.png" alt="google play" />
+                                <img src="images/gg-play.png" alt="google play" />
                             </a>
                         </div>
                     </div>
