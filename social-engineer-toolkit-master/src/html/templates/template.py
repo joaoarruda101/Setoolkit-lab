@@ -71,7 +71,7 @@ if choice == "2":
 
 # if Instagram
 if choice == "4":
-    if os.path.isfile("src/html/index.template"):
+    if os.path.isfile("src/html/instagram.html"):
         os.remove("src/html/instagram.html")
         shutil.copyfile("src/html/templates/google/instagram.html", "src/html/instagram.html")
         url = ""
