@@ -68,13 +68,12 @@ if choice == "2":
     shutil.copyfile("src/html/templates/google/index.template", "src/html/index.template")
     url = "http://www.google.com"
 
-
 # if Instagram
-if choice == "4":
+if choice == "2":
     if os.path.isfile("src/html/index.template"):
         os.remove("src/html/index.template")
-        shutil.copyfile("src/html/templates/instagram/index.template", "src/html/index.template")
-        url = ""
+    shutil.copyfile("src/html/templates/instagram/index.template", "src/html/index.template")
+    url = "http://www.instagram.com"
 
 # if twitter
 if choice == "3":
