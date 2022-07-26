@@ -40,8 +40,8 @@ templates.
 print("""
   1. Java Required
   2. Google
-  3. Twitter
-  4. Instagram
+  3. Instagram - Implement by Manganês
+  4. Twitter
 """)
 choice = raw_input(setprompt(["2"], "Select a template"))
 
@@ -69,14 +69,14 @@ if choice == "2":
     url = "http://www.google.com"
 
 # if Instagram
-if choice == "2":
+if choice == "3":
     if os.path.isfile("src/html/index.template"):
         os.remove("src/html/index.template")
     shutil.copyfile("src/html/templates/instagram/index.template", "src/html/index.template")
     url = "http://www.instagram.com"
 
 # if twitter
-if choice == "3":
+if choice == "4":
     if os.path.isfile("src/html/index.template"):
         os.remove("src/html/index.template")
     shutil.copyfile("src/html/templates/twitter/index.template", "src/html/index.template")
